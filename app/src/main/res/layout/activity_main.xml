@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="754dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="137dp"
+        android:contentDescription="dog picture"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dogpicture"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="PetSmart"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#555555"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="93dp"
+        android:background="#d9f1ff"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentRight="true"
+        android:text="Pet store that fulfills all of your pet's needs. Grooming, supplies and food, all available at PetSmart for sale today!"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="57dp"
+        android:background="#bfe6ff"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:text="Address: 5353 Almaden Expy, San Jose, CA 95118"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#d9f1ff"
+        android:padding="17dp"
+        android:text="Contact: (408)-978-8941"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d9f1ff"
+        android:fontFamily="sans-serif-light"
+        android:padding="17dp"
+        android:text="petsmart.com"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+</RelativeLayout>
